@@ -15,7 +15,7 @@ body, * {
 .navPrincipal{
     width: 100%;
     height: 120px;
-    background: #1D75BD;
+    background: #898D8B;
 }
 
 .navPrincipal ul{
@@ -52,10 +52,11 @@ body, * {
 main {
     max-width: 1280px;
     margin: 0 auto;
+    padding-bottom: 100px;
 }
 /* HOME  */
-/* BANNER */
 
+/* BANNER */
 
 .carousel {
     text-align: center;
@@ -65,14 +66,86 @@ main {
     list-style: none;
 }
 
+/* COMPONENTES EM DESTAQUE  */
+
+.destaque {
+    position: relative;
+    display: inline-block;
+    width: 340px;
+    height: 425px;
+    background-color: #C68A32;
+    text-align: center;
+    /* border = tamanho, tipo, cor  */
+    border: 1px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: -11px 15px 25px -1px rgba(0,0,0,0.7);
+    margin: 0px 40px;
+    
+}
+
+.destaque img {
+    max-width: 100%;
+    margin-top: 5%;
+}
+
+.destaque h2 {
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(19, 19, 68);
+}
+
+.destaque .valor {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    color: black;
+    font-weight: 300;
+    /* text-transform: uppercase; */
+} 
+
+.destaque .valor.riscado {
+    font-size: 20px;
+    color: black;
+    display: block;
+    text-decoration: line-through;
+}
+
+.destaque .valor small {
+    /* text-decoration: none; */
+}
+
+.destaque .adicionarCarrinho {
+    display: block;
+    position: absolute;
+    width: 95%;
+    padding: 10PX 0px;
+    left: 10px;
+    bottom: 10px;
+    background: #CCC;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    box-shadow: -11px 15px 25px -1px rgba(0,0,0,0.7);
+    border-radius: 10px;
+    transition: all 0,5s;
+}
+
+.destaque .adicionarCarrinho:hover {
+    background: black;
+    color: #CCC;
+    transition: all 0,5s;
+}
+
+
+
 
 /* FOOTER  */
 
 .rodape {
     width: 100%;
     height:;
-    background: #1D75BD;
-    position: absolute;
+    background: #898D8B;
+    position: fixed;
     bottom: 0;
     padding: 15px 0px;
 }
@@ -91,5 +164,5 @@ main {
     color: black;
     text-decoration: none;
     text-transform: uppercase;
-
 }
+
