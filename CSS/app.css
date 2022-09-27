@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;500;700&family=Tinos:ital,wght@0,400;1,400;1,700&display=swap');
 
 *{
-    font font-family: 'Tinos', serif;
+    font-family: 'Courier New', Courier, monospace ;
 }
 
 body, * {
@@ -111,10 +111,6 @@ main {
     text-decoration: line-through;
 }
 
-.destaque .valor small {
-    /* text-decoration: none; */
-}
-
 .destaque .adicionarCarrinho {
     display: block;
     position: absolute;
@@ -165,7 +161,7 @@ main {
 
 .rodape {
     width: 100%;
-    height:;
+    /* height:; */
     background: #43101F;
     position: fixed;
     bottom: 0;
@@ -238,5 +234,8 @@ main {
 
 .cliente2 p {
     margin-top: 20px;
+    padding-top: 20px;
+    color: black;
+    font-size: 20px;
 
 }
